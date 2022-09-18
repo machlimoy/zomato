@@ -28,13 +28,18 @@ body {
   background-image: linear-gradient(
     to right,
     #ff512f 0%,
-    #dd2476 100%,
-    #ff512f 51%
+    #dd2476 50%,
+    #ff512f 26%,
+    #dd2476 50%,
+    #ff512f 100%,
+    #dd2476 76%
     );
     color: #fff;
     border: none;
     padding: 12px;
     border-radius: 20px;
+    background-size: 200%;
+    transition: 0.7s;
 }
 
 .container{
@@ -107,6 +112,7 @@ body {
     #ff512f 51%
     );
 }
+
 
 @media (min-width: 768px) {
   .navbar_brand {
@@ -198,15 +204,11 @@ body {
 }
 
 .button_primary:hover {
-  background-image: linear-gradient(
-    to right,
-    #dd2476 0%,
-    #ff512f 100%,
-    #dd2476 51%
-    );
+  background-position: right;
   cursor: pointer;
 }
 
+
   .view_button:hover {
-    cursor :alias;
+    cursor :pointer;
   }
