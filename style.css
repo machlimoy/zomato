@@ -99,7 +99,10 @@ body {
   background-color: #FFFFFF;
   margin: 10px;
 }
-
+.view_div {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
 .view_button {
   font-size: 18px;
   border: none;
@@ -114,6 +117,68 @@ body {
     );
 }
 
+.restaurants_list {
+  margin-top: 60px;
+  max-width: 100%;
+  display: block;
+}
+
+.restaurants_list_text {
+  font-weight: 800;
+  font-size: 24px;
+  color: #1d3557;
+}
+
+.restaurants_list_imgs_container {
+  max-width: 100%;
+}
+
+.row1 {
+  justify-content: space-between;
+  margin-top: 10px;
+  max-width: 100%;
+  display: flex;
+  align-items: baseline;
+}
+.row2 {
+  margin-top: 10px;
+    max-width: 100%;
+    display: flex;
+}
+
+.restaurants_list_imgs_card {
+  padding-right: 10px;
+}
+
+.restaurants_list_img_card_img1 {
+  border-radius: 4%;
+  width: 150px;
+  height: 80px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+   0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.restaurants_list_img_card_img2 {
+  border-radius: 4%;
+  width: 175px;
+  height: 100px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+   0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.restaurants_list_img_card_img3 {
+  border-radius: 4%;
+  width: 185px;
+  height: 100px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+   0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.restaurants_list_img_card_img4 {
+  border-radius: 4%;
+  padding-left: 10px;
+  width: 139px;
+  height: 80px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+   0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
 
 @media (min-width: 768px) {
   .navbar_brand {
@@ -131,6 +196,10 @@ body {
 
   #pizza_card {
     margin-top: -20px;
+  }
+
+  .view_div {
+    margin-top: auto;
   }
 
   .view_button {
@@ -208,7 +277,6 @@ body {
   background-position: right;
   cursor: pointer;
 }
-
 
   .view_button:hover {
     cursor :pointer;
